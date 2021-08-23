@@ -13,14 +13,15 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         I'm Hamza,
-        <br />a Full Stack Developer
+        <br />
+        Full Stack Developer
       </SectionTitle>
       <SectionText>
         I build modern applications, business portfolios & ecommerce websites
         with latest technologies by providing high-performing & efficient
         solutions.
       </SectionText>
-      <Button>Let's Talk</Button>
+      <Button>Let's Connect</Button>
     </LeftSection>
   </Section>
 );

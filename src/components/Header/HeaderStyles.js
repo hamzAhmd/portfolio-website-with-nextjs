@@ -18,6 +18,11 @@ export const Container = styled.div`
   }
 `;
 
+export const Span = styled.span`
+  color: #6bbfa0;
+  font-size: 2rem;
+  padding-left: 1.5rem;
+`;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
