@@ -14,7 +14,6 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-  Span,
 } from './HeaderStyles';
 
 const Header = () => (
@@ -22,8 +21,7 @@ const Header = () => (
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: '#f3f3f3' }}>
-          <Image src='/logo192.png' width={64} height={64} />
-          <Span>Hamza A.</Span>
+          <Image src='/logo192.png' width={70} height={70} />
         </a>
       </Link>
     </Div1>

@@ -17,10 +17,6 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
-export const Span = styled.span`
-  font-size: 2rem;
-  margin-left: 2rem;
-`;
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
@@ -33,9 +29,9 @@ export const Div1 = styled.div`
 `;
 export const Div2 = styled.div`
   padding-top: 1.5rem;
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 2 / 5;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -63,7 +59,7 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+    padding: 2rem;
   }
 `;
 
