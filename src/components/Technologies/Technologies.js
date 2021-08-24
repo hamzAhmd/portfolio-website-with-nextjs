@@ -1,5 +1,15 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiDatabase,
+  DiHtml5,
+  DiCss3,
+  DiBootstrap,
+  DiGit,
+} from 'react-icons/di';
+import { SiNextDotJs, SiMaterialUi, SiRedux, SiSass } from 'react-icons/si';
 import {
   Section,
   SectionDivider,
@@ -19,44 +29,104 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      My skills are not confined only to MERN stack but I've worked with
+      multiple web technologies
     </SectionText>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size='3rem' />
-        </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiece with <br />
-            React.js
-          </ListParagraph>
+          <div>
+            <DiReact size='5rem' />
+          </div>
+          <ListParagraph>React</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiFirebase size='3rem' />
-        </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
+          <div>
+            <DiDatabase size='5rem' />
+          </div>
+          <ListParagraph>MongoDB </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size='3rem' />
-        </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
+          <div>
+            <DiNodejs size='5rem' />
+          </div>
+          <ListParagraph>Node</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <SiNextDotJs size='5rem' />
+          </div>
+          <ListParagraph>Next.js</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <SiRedux size='5rem' />
+          </div>
+          <ListParagraph>Redux</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <DiJavascript1 size='5rem' />
+          </div>
+          <ListParagraph>JavaScript</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <SiMaterialUi size='5rem' />
+          </div>
+          <ListParagraph>Material-UI</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <DiHtml5 size='5rem' />
+          </div>
+          <ListParagraph>HTML5</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <DiCss3 size='5rem' />
+          </div>
+          <ListParagraph>CSS3</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <SiSass size='5rem' />
+          </div>
+          <ListParagraph>Sass</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <DiBootstrap size='5rem' />
+          </div>
+          <ListParagraph>Bootstrap</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <div>
+            <DiGit size='5rem' />
+          </div>
+          <ListParagraph>Git</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

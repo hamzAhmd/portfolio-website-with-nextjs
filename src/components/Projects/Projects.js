@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 import {
   BlogCard,
   CardInfo,
@@ -11,7 +11,6 @@ import {
   TagList,
   TitleContent,
   UtilityList,
-  Img,
 } from './ProjectsStyles';
 import {
   Section,
@@ -23,19 +22,24 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding id='projects'>
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Featured Projects</SectionTitle>
     <GridContainer>
       {projects.map(
-        ({ id, image, title, description, tags, source, visit }) => (
+        ({ id, image, alt, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <Img src={image} />
+            <Image
+              src={image}
+              width={640}
+              height={360}
+              alt={alt}
+              style={{ objectFit: 'cover', overflow: 'hidden' }}
+            />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>
@@ -43,8 +47,24 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              <li>
+                <ExternalLinks
+                  href={source}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Code
+                </ExternalLinks>
+              </li>
+              <li>
+                <ExternalLinks
+                  href={visit}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Visit
+                </ExternalLinks>
+              </li>
             </UtilityList>
           </BlogCard>
         )

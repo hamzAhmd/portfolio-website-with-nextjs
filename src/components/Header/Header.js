@@ -22,7 +22,7 @@ const Header = () => (
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: '#f3f3f3' }}>
-          <Image src='/logo192.png' width={64} height={64} />
+          <Image src='/logo192.png' width={64} height={64} alt='logo' />
           <Span>Hamza</Span>
         </a>
       </Link>
@@ -35,7 +35,7 @@ const Header = () => (
       </li>
       <li>
         <Link href='#tech'>
-          <NavLink>Technologies</NavLink>
+          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
@@ -46,6 +46,7 @@ const Header = () => (
     </Div2>
     <Div3>
       <SocialIcons
+        aria-label='Github'
         href='https://github.com/hamzAhmd/'
         target='_blank'
         rel='noopener noreferrer'
@@ -53,6 +54,7 @@ const Header = () => (
         <AiFillGithub size='3rem' />
       </SocialIcons>
       <SocialIcons
+        aria-label='LinkedIn'
         href='https://linkedin.com/in/hamzAhmd'
         target='_blank'
         rel='noopener noreferrer'
@@ -60,6 +62,7 @@ const Header = () => (
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
       <SocialIcons
+        aria-label='Twitter'
         href='https://twitter.com/hamxahmd'
         target='_blank'
         rel='noopener noreferrer'

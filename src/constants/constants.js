@@ -2,18 +2,20 @@ export const projects = [
   {
     title: 'Maxpot Ecommerce',
     description:
-      'Full Stack MERN Ecommerce Application for Maxpot MMA Products ',
+      'This is a full stack Ecommerce Store for Mixed Martial Art Products where you create your account and use it for checkout process',
     image: '/images/1.png',
+    alt: 'Maxpot',
     tags: ['Mongo', 'Express', 'Node', 'React', 'Redux'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/hamzAhmd/maxpot-ecommerce-mern',
+    visit: 'https://maxpot.herokuapp.com/',
     id: 0,
   },
   {
     title: 'Contact InfoMinder',
     description:
-      'Full stack MERN application built with React hooks, context API and created the custom backend API with Express, Node and MongoDB Atlas to perform all CRUD operations when the logged in users with JWT auth are managing their contacts. ',
+      'A full stack MERN app for contact management where a logged in user can use all CRUD functionalities with their contact lists',
     image: '/images/2.png',
+    alt: 'infominder',
     tags: ['MongoDB', 'Express', 'Node', 'React'],
     source: 'https://github.com/hamzAhmd/contact-infominder',
     visit: 'https://infominder.herokuapp.com/register',
@@ -22,8 +24,9 @@ export const projects = [
   {
     title: 'GitHub Tracker',
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      'A react app using GitHub API is developed to find any user by their names and show their details ',
     image: '/images/3.png',
+    alt: 'github_tracker',
     tags: ['React', 'Context', 'Hooks', 'GitHub API'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -32,8 +35,9 @@ export const projects = [
   {
     title: 'Weather App',
     description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
+      'A weather app built using weather API to display the weather details of the corresponding city',
     image: '/images/4.png',
+    alt: 'weatherapp',
     tags: ['JavaScript', 'OpenWeatherAPI'],
     source: 'https://google.com',
     visit: 'https://google.com',

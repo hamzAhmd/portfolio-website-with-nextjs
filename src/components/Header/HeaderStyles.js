@@ -32,7 +32,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
-export const Div2 = styled.div`
+export const Div2 = styled.ul`
   padding-top: 1.5rem;
   grid-area: 1 / 2 / 2 / 5;
   display: flex;

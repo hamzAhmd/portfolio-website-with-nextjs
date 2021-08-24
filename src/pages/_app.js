@@ -16,6 +16,7 @@ export default function App({ Component, pageProps }) {
           name='keywords'
           content='Full Stack Developer, MERN Stack, React, MongoDB, Express, Next.js, Materialui, Node.js, Redux, Hooks, Business Portfolio, Ecommerce '
         />
+        <meta name='robots' content='index, follow' />
       </Head>
       <Theme>
         <Component {...pageProps} />

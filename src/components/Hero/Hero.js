@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 import {
   Section,
   SectionText,
@@ -17,11 +17,13 @@ const Hero = () => (
         Full Stack Developer
       </SectionTitle>
       <SectionText>
-        I build modern applications, business portfolios & ecommerce websites
-        with latest technologies by providing high-performing & efficient
-        solutions.
+        I build modern applications, business portfolios & ecommerce websites by
+        providing high-performing & efficient solutions.
       </SectionText>
-      <Button>Let's Connect</Button>
+
+      <Link href='#footer'>
+        <Button>Let's Connect </Button>
+      </Link>
     </LeftSection>
   </Section>
 );
