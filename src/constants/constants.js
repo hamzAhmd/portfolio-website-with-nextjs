@@ -28,8 +28,8 @@ export const projects = [
     image: '/images/3.png',
     alt: 'github_tracker',
     tags: ['React', 'Context', 'Hooks', 'GitHub API'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/hamzAhmd/github-profile-tracker',
+    visit: 'https://github-tracker.surge.sh/',
     id: 2,
   },
   {
@@ -39,8 +39,8 @@ export const projects = [
     image: '/images/4.png',
     alt: 'weatherapp',
     tags: ['JavaScript', 'OpenWeatherAPI'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/hamzAhmd/Weather-JS-App',
+    visit: 'https://weather-api-app.surge.sh/',
     id: 3,
   },
 ];
