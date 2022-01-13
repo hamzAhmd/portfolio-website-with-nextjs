@@ -13,12 +13,11 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         I'm Hamza,
-        <br />
-        Full Stack Developer
+        <br />a Frontend Developer
       </SectionTitle>
       <SectionText>
-        I build modern applications, business portfolios & ecommerce websites by
-        providing high-performing & efficient solutions.
+        I build high-performing & modern applications <br />
+        with React.js by consuming backend APIs
       </SectionText>
 
       <Link href='#footer'>
