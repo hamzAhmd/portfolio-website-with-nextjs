@@ -8,7 +8,7 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { text: ' Tech', info: 'Inspired by Indutrial Revolution 4.0' },
+  { text: ' Tech', info: 'Inspired by Industrial Revolution 4.0' },
   { text: 'Cricket', info: 'Enthusiast Player and a fan' },
   { text: ' History', info: 'Passionate to learn more about history' },
   { text: 'Traveling', info: 'Love to explore nature' },
