@@ -33,6 +33,7 @@ const Projects = () => (
               height={360}
               alt={alt}
               style={{ objectFit: 'cover', overflow: 'hidden' }}
+              draggable='false'
             />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>

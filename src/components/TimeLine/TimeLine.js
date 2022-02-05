@@ -24,6 +24,7 @@ const Timeline = () => {
         applications. Now, I feel more confident to build full scale
         applications and to solve business problems.
       </SectionText>
+
       <SectionText>
         Check out my projects on GitHub and I mostly share about my progress and
         web development tips and resoruces on Twitter. I'm also available to

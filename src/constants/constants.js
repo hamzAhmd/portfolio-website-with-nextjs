@@ -22,6 +22,26 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'Virtual Fitting Room',
+    description: 'Frontend react app built for the Shopify fashion stores ',
+    image: '/images/project1.png',
+    alt: 'virtual fitting room',
+    tags: ['React', 'Redux', 'Material UI'],
+
+    visit: 'https://viubox.herokuapp.com/',
+    id: 2,
+  },
+  {
+    title: 'Knockin',
+    description: 'Frontend react app built for the real estate business',
+    image: '/images/knockin.png',
+    alt: 'Maxpot',
+    tags: ['React', 'Redux', 'BootStrap'],
+
+    visit: 'https://knockin.herokuapp.com/',
+    id: 3,
+  },
+  {
     title: 'GitHub Tracker',
     description:
       'A react app using GitHub API is developed to find any user by their names and show their details ',
@@ -30,7 +50,7 @@ export const projects = [
     tags: ['React', 'Context', 'Hooks', 'GitHub API'],
     source: 'https://github.com/hamzAhmd/github-profile-tracker',
     visit: 'https://github-tracker.surge.sh/',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Weather App',
@@ -41,7 +61,7 @@ export const projects = [
     tags: ['JavaScript', 'OpenWeatherAPI'],
     source: 'https://github.com/hamzAhmd/Weather-JS-App',
     visit: 'https://weather-api-app.surge.sh/',
-    id: 3,
+    id: 5,
   },
 ];
 
