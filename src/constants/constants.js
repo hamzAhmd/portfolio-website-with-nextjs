@@ -31,6 +31,7 @@ export const projects = [
     visit: 'https://viubox.herokuapp.com/',
     id: 2,
   },
+
   {
     title: 'Knockin',
     description: 'Frontend react app built for the real estate business',
@@ -42,6 +43,17 @@ export const projects = [
     id: 3,
   },
   {
+    title: 'React Dashboard ',
+    description:
+      'React Dashboard built by consuming GraphQL API for Renewable Energies with Apollo Client',
+    image: '/images/dashboard.PNG',
+    alt: 'infominder',
+    tags: ['React', 'Bootstrap', 'Apollo GraphQL', 'Chart.js'],
+
+    visit: 'https://regenerative-power-generation.netlify.app/',
+    id: 4,
+  },
+  {
     title: 'GitHub Tracker',
     description:
       'A react app using GitHub API is developed to find any user by their names and show their details ',
@@ -50,7 +62,7 @@ export const projects = [
     tags: ['React', 'Context', 'Hooks', 'GitHub API'],
     source: 'https://github.com/hamzAhmd/github-profile-tracker',
     visit: 'https://github-tracker.surge.sh/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Weather App',
@@ -61,7 +73,7 @@ export const projects = [
     tags: ['JavaScript', 'OpenWeatherAPI'],
     source: 'https://github.com/hamzAhmd/Weather-JS-App',
     visit: 'https://weather-api-app.surge.sh/',
-    id: 5,
+    id: 6,
   },
 ];
 
