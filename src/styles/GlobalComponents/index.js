@@ -285,3 +285,14 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => (large ? '32px' : '16px')};
   }
 `;
+
+export const RecommendationBox = styled.div`
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 16px;
+  transition: 0.3s ease;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease;
+  }
+`;

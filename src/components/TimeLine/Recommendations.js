@@ -4,6 +4,7 @@ import {
   SectionDivider,
   SectionText,
   SectionTitle,
+  RecommendationBox,
 } from '../../styles/GlobalComponents';
 
 const Timeline = () => {
@@ -16,7 +17,7 @@ const Timeline = () => {
         say about me:
       </SectionText>
       <SectionText>
-        <i>
+        <RecommendationBox>
           "Hamza delivered good work on this React development project and I
           enjoyed working with him. His communication was top-notch, he met all
           deadlines, and his skills were reasonably strong. He wrote code that
@@ -24,16 +25,15 @@ const Timeline = () => {
           quick changes. His ability to perform complex tasks quickly and
           efficiently was impeccable. I enjoyed working with Hamza and would
           definitely work with him again in the future." ~Arash (Viubox)
-        </i>
+        </RecommendationBox>
       </SectionText>
       <SectionText>
-        <i>
-          "Hamza is an extremely talented and skilled Web Developer, best that I
-          have ever worked with. I recently collaborated with him to work on my
-          portfolio site and he came up with amazing results. He knows his stuff
-          very well. His clear communication, punctuality & intelligence is
-          icing on the cake. I highly endorse him." ~M.Yamman (Brand designer)
-        </i>
+        <RecommendationBox>
+          "He is a freelancer you can rely on 100%. I had a lot of fun working
+          with him. He is professional and understands his job. Hamza, it was an
+          honor for me. See you on the next projects." ~Philip Domke
+          (ampere.cloud)
+        </RecommendationBox>
       </SectionText>
 
       <SectionDivider />
