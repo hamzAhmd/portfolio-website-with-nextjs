@@ -30,7 +30,6 @@ const Timeline = () => {
           (ampere.cloud)
         </RecommendationBox>
       </SectionText>
-      <SectionDivider />
     </Section>
   );
 };
