@@ -287,6 +287,7 @@ export const LinkIconImg = styled.div`
 `;
 
 export const RecommendationBox = styled.div`
+  margin-top: ${({ large }) => (large ? '32px' : '20px')};
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   padding: 16px;
