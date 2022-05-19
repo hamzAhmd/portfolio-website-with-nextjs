@@ -1,5 +1,17 @@
 import styled from 'styled-components';
 
+export const RecommendationBox = styled.div`
+  margin-top: ${({ large }) => (large ? '32px' : '20px')};
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 16px;
+  transition: 0.3s ease;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease;
+  }
+`;
+
 export const Section = styled.section`
   display: ${(props) => (props.grid ? 'grid' : 'flex')};
   flex-direction: ${(props) => (props.row ? 'row' : 'column')};
@@ -283,17 +295,5 @@ export const LinkIconImg = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     height: ${({ large }) => (large ? '32px' : '16px')};
-  }
-`;
-
-export const RecommendationBox = styled.div`
-  margin-top: ${({ large }) => (large ? '32px' : '20px')};
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
-  padding: 16px;
-  transition: 0.3s ease;
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: 0.3s ease;
   }
 `;
