@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const RecommendationBox = styled.div`
+export const RecommendationBox = styled.p`
   margin-top: ${({ large }) => (large ? '32px' : '20px')};
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
@@ -70,7 +70,7 @@ export const SectionTitle = styled.h2`
   }
 `;
 
-export const SectionText = styled.p`
+export const SectionText = styled.div`
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;
